@@ -1,0 +1,3 @@
+Producto: celular
+Precio de producto: 4
+Cantidad de producto: 54.5

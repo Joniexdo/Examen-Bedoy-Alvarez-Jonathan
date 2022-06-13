@@ -1,0 +1,7 @@
+C:\Users\maxilana\Documents\github\Examen-Bedoy-Alvarez-Jonathan\Examen de recuperacion\bin\Debug\Examen de recuperacion.exe.config
+C:\Users\maxilana\Documents\github\Examen-Bedoy-Alvarez-Jonathan\Examen de recuperacion\bin\Debug\Examen de recuperacion.exe
+C:\Users\maxilana\Documents\github\Examen-Bedoy-Alvarez-Jonathan\Examen de recuperacion\bin\Debug\Examen de recuperacion.pdb
+C:\Users\maxilana\Documents\github\Examen-Bedoy-Alvarez-Jonathan\Examen de recuperacion\obj\Debug\Examen de recuperacion.csproj.AssemblyReference.cache
+C:\Users\maxilana\Documents\github\Examen-Bedoy-Alvarez-Jonathan\Examen de recuperacion\obj\Debug\Examen de recuperacion.csproj.CoreCompileInputs.cache
+C:\Users\maxilana\Documents\github\Examen-Bedoy-Alvarez-Jonathan\Examen de recuperacion\obj\Debug\Examen de recuperacion.exe
+C:\Users\maxilana\Documents\github\Examen-Bedoy-Alvarez-Jonathan\Examen de recuperacion\obj\Debug\Examen de recuperacion.pdb
