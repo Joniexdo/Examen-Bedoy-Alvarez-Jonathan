@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 using System.IO;
 namespace Examen_de_recuperacion
 {
+    //Bedoy Alvarez Jonathan 21211917
     class Program
     {
-        //declaracion de la clase
+        //Declaracion de la clase
         class Producto
         {
             //Declaracion de los campos
@@ -49,6 +50,7 @@ namespace Examen_de_recuperacion
                             Console.WriteLine("REGISTRO DE PRODUCTOS");
                             try
                             {
+                                //Captura de datos
                                 Console.Write("Ingrese Nombre del producto: ");
                                 string producto = Console.ReadLine();
                                 Console.Write("Ingrese la cantidad de producto: ");
@@ -59,7 +61,7 @@ namespace Examen_de_recuperacion
                                 Producto product = new Producto(producto, cantidad, precio);
 
                                 //Creacion de archivo
-                                StreamWriter sw = new StreamWriter("Producto.txt", true);                  
+                                StreamWriter sw = new StreamWriter("Productos.txt", true);                  
 
                                 //Escritura del texto en el archivo
                                 sw.WriteLine("Producto: " + product.producto);
@@ -71,6 +73,7 @@ namespace Examen_de_recuperacion
                             }
                             catch (FormatException)
                             {
+                                //mensaje de error para el registro
                                Console.WriteLine("Formato incorrecto");
                             }
                             catch (OverflowException e)
@@ -78,15 +81,21 @@ namespace Examen_de_recuperacion
                                 Console.WriteLine(e.Message);
                             }
                         } while (correcto == false);
+                        //mensaje que se registro bien
                         Console.WriteLine("\nProducto registrado correctamente");
                         break;
+
+                        //Lista de los productos
                     case 2:
                         Console.Clear();
                         Console.Write("LISTA DE PRODUCTOS");
+
                         //Leer archivo
                        StreamReader sr = new StreamReader("Producto.txt");
+
                         //variable para lectura de archivo
                         string linea;
+
                         //Recorrer archivo
                         while ((linea = sr.ReadLine()) != null)
                         {
@@ -94,6 +103,7 @@ namespace Examen_de_recuperacion
                         }
                         sr.Close();
                         break;
+                        //Para cerrar el programa
                     case 3:
                         Console.Write("El programa a finalizado.");
                         break;

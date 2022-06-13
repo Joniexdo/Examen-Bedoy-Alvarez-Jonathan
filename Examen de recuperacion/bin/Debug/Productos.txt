@@ -1,0 +1,3 @@
+Producto: cel
+Precio de producto: 2
+Cantidad de producto: 300
